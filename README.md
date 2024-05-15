@@ -22,7 +22,7 @@
 - **База данных**: SQLite с использованием Entity Framework
 - **Гибкая архитектура**: Возможно добавление огромного количества лекций, переключение между ними останется комфортным
 
-  ## Создание классов ChemystryEducation и ApplicationContext для связи с БД
+  ## Создание классов ChemicalElement и ApplicationContext для связи с БД
 
 ``` C#
 using System.ComponentModel.DataAnnotations;
@@ -43,7 +43,6 @@ namespace ChemistryEducation
 }
 
 using Microsoft.EntityFrameworkCore;
-
 namespace ChemistryEducation
 {
     public class ApplicationContext : DbContext
